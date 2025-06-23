@@ -1,10 +1,13 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function NavData() {
   return (
     <>
          <li>
-            <Link href="/">HRPlat</Link>
+            <Link href="/">
+                <Image src="/logo.jpg" alt="logo" width={50} height={50} className="rounded-full" />
+            </Link>
         </li>
         <li>
             <Link href="/about">about</Link>

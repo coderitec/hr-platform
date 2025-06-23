@@ -1,0 +1,16 @@
+
+html{
+    --bg-color:rgba(233, 161, 127, 0.848);
+}
+
+.back{
+    background-color: var(--bg-color);
+    background-image: url(/banner.jpg);
+    background-blend-mode: lighten;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
