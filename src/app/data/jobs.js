@@ -11,7 +11,8 @@ const jobs = [
       "Or listen buy rock new.",
       "Financial crime red magazine political today hair."
     ],
-    "postedAt": "2025-06-13"
+    "postedAt": "2025-06-13",
+    "endDate": "2025-06-30"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@ const jobs = [
       "Better those church professor evening shoulder option.",
       "Set learn town meet will treatment institution."
     ],
-    "postedAt": "2025-06-18"
+    "postedAt": "2025-06-18",
+    "endDate": "2025-07-15"
   },
   {
     "id": 3,
@@ -39,7 +41,8 @@ const jobs = [
       "Become question building executive interest over alone.",
       "Somebody question do investment others amount."
     ],
-    "postedAt": "2025-06-21"
+    "postedAt": "2025-06-21",
+    "endDate": "2025-07-10"
   },
   {
     "id": 4,
@@ -53,7 +56,8 @@ const jobs = [
       "Job product fund sort him.",
       "Become mind company response these stock interview economy."
     ],
-    "postedAt": "2025-06-22"
+    "postedAt": "2025-06-22",
+    "endDate": "2025-08-20"
   },
   {
     "id": 5,
@@ -67,7 +71,8 @@ const jobs = [
       "Low chance society difficult forward more like.",
       "Single member team voice level someone note."
     ],
-    "postedAt": "2025-06-22"
+    "postedAt": "2025-06-22",
+    "endDate": "2025-09-30"
   },
   {
     "id": 6,
@@ -81,7 +86,8 @@ const jobs = [
       "Understand law change type production spring.",
       "Debate agree board difficult action effort floor."
     ],
-    "postedAt": "2025-06-16"
+    "postedAt": "2025-06-16",
+    "endDate": "2025-06-30"
   },
   {
     "id": 7,
@@ -95,7 +101,8 @@ const jobs = [
       "Show final together let data unit.",
       "Education college political court range."
     ],
-    "postedAt": "2025-06-13"
+    "postedAt": "2025-06-13",
+    "endDate": "2025-07-05"
   },
   {
     "id": 8,
@@ -109,7 +116,8 @@ const jobs = [
       "Night often course day ready.",
       "Mother step leg."
     ],
-    "postedAt": "2025-06-16"
+    "postedAt": "2025-06-16",
+    "endDate": "2025-07-20"
   },
   {
     "id": 9,
@@ -123,7 +131,8 @@ const jobs = [
       "Rather begin from glass laugh magazine.",
       "Simple activity offer meeting each down travel."
     ],
-    "postedAt": "2025-06-22"
+    "postedAt": "2025-06-22",
+    "endDate": "2025-08-01"
   },
   {
     "id": 10,
@@ -137,7 +146,8 @@ const jobs = [
       "Heavy media style improve.",
       "Rock section letter million."
     ],
-    "postedAt": "2025-06-20"
+    "postedAt": "2025-06-20",
+    "endDate": "2025-06-27"
   },
   {
     "id": 11,
@@ -151,7 +161,8 @@ const jobs = [
       "Lead no wait carry assume time.",
       "Certainly talk actually she understand book speech follow."
     ],
-    "postedAt": "2025-06-16"
+    "postedAt": "2025-06-16",
+    "endDate": "2025-07-10"
   },
   {
     "id": 12,
@@ -165,7 +176,8 @@ const jobs = [
       "Maintain all soon so.",
       "Draw this both."
     ],
-    "postedAt": "2025-06-17"
+    "postedAt": "2025-06-17",
+    "endDate": "2025-07-05"
   },
   {
     "id": 13,
@@ -179,7 +191,8 @@ const jobs = [
       "Move draw television some work.",
       "Language gas size several increase."
     ],
-    "postedAt": "2025-06-14"
+    "postedAt": "2025-06-14",
+    "endDate": "2025-07-20"
   },
   {
     "id": 14,
@@ -193,7 +206,8 @@ const jobs = [
       "Stuff ability reveal.",
       "Evening any compare indeed citizen generation music help."
     ],
-    "postedAt": "2025-06-14"
+    "postedAt": "2025-06-14",
+    "endDate": "2025-07-15"
   },
   {
     "id": 15,
@@ -207,7 +221,8 @@ const jobs = [
       "Sometimes if assume foot nearly early easy statement.",
       "Police group song still identify everyone."
     ],
-    "postedAt": "2025-06-13"
+    "postedAt": "2025-06-13",
+    "endDate": "2025-07-01"
   }
 ];
 
