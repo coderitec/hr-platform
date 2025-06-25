@@ -196,7 +196,7 @@ const jobs = [
   },
   {
     "id": 14,
-    "title": "Exhibitions officer, museum/gallery",
+    "title": "Exhibitions officer, gallery",
     "category": "Cybersecurity",
     "company": "BlueEdge Systems",
     "location": "Abuja, Nigeria",

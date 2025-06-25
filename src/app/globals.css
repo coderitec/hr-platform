@@ -4,5 +4,13 @@
         .job-card {
         @apply border-4 border-slate-950 rounded-md;
         }
-    
+
+        
+}
+
+@layer base{
+        form input, form textarea{
+        @apply border-4 border-slate-950 rounded-md p-2 w-full;
+        }
+
 }
