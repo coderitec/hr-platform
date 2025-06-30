@@ -1,4 +1,5 @@
 
+import SaveButton from "@/app/components/SaveButton";
 import jobs from "@/app/data/jobs";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,7 +26,7 @@ export default async function JobDescription({params}) {
 
         <p className={`text-2xl   text-white px-4 py-2 rounded-lg
             ${Math.ceil((new Date(jobDetails.endDate) - new Date()) / (1000 * 60 * 60 * 24)) < 4 ? 'bg-red-500 animate-pulse' : 'bg-slate-600'}`}>
-            Days left: {Math.ceil((new Date(jobDetails.endDate) - new Date()) / (1000 * 60 * 60 * 24))} days
+             {Math.ceil((new Date(jobDetails.endDate) - new Date()) / (1000 * 60 * 60 * 24)) < 0 ? 'Expired' :'Days left:'+ Math.ceil((new Date(jobDetails.endDate) - new Date()) / (1000 * 60 * 60 * 24)) + ' days'}
         </p>
         </div>
 
@@ -67,11 +68,19 @@ export default async function JobDescription({params}) {
             </ul>
         </section>
 
-
+        <div className="flex items-center gap-4 my-4">
 
         <Link href={`/apply/${jobDetails.title.toLowerCase().replace(/(,*\s+)/g, '-')}`}>
-        <input type="button" value="apply for this role"  className="capitalize text-lg bg-slate-950 hover:bg-slate-700 rounded-lg p-4 text-white cursor-pointer" />
+        <input type="button" value={Math.ceil((new Date(jobDetails.endDate) - new Date()) / (1000 * 60 * 60 * 24)) < 0 ?  'no longer available' : "apply for this role" }  className="capitalize text-lg bg-slate-950 hover:bg-slate-700 rounded-lg p-4 text-white cursor-pointer" 
+        {...Math.ceil((new Date(jobDetails.endDate) - new Date()) / (1000 * 60 * 60 * 24)) < 0 ? {disabled: true} : {}}
+        />
         </Link>
+        {new Date(jobDetails.endDate) > new Date() &&
+
+            <SaveButton title={jobDetails.title} company={jobDetails.company}/>
+        }
+
+        </div>
 
         <section>
             <h2 className="capitalize text-3xl my-4 font-semibold">related jobs</h2>

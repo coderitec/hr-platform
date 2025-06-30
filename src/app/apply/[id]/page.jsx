@@ -10,7 +10,7 @@ export default async function JobApplication({params}) {
             <div>
                 <label className="">Job Title</label>
                 <input type="text" className=" focus:border-indigo-500 bg-slate-300 focus:ring-indigo-500" value={id.replaceAll('-',' ').toUpperCase()} disabled required />
-            </div>
+            </div> 
             <div>
                 <label className="">Full Name</label>
                 <input type="text" className=" focus:border-indigo-500 focus:ring-indigo-500" required />
