@@ -5,8 +5,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { MdOutlineEditNote } from "react-icons/md";
 
-
-
 export default async function JobDescription({params}) {
 
     const { slug } = await params;
